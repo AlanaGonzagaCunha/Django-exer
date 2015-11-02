@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Django-CRUD</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/estilos.css"  type="text/css">
+<style> 
+body{
+margin-left:15%;
+margin-top: 80px;
+}
+.btn{
+margin-left: 75%;
+}
+</style>
+</head>
+<body>
+
+<form method="post" id="formulario">
+<h1>Cadastro</h1>
+<div class="form-horinzontal">
+<div class="form-group col-sm-10">
+<label class="control-label"> Nome:</label>
+<input type="text" class="form-control" id="nomeContato">
+<label class="control-label"> Endereço:</label>
+<input type="text" class="form-control" id="nomeContato">
+</div>
+<div class="form-group col-sm-6">
+<label class="control-label"> Email:</label>
+<input type="email" class="form-control" id="emailContato">
+<label class="control-label"> Telefone:</label>
+<input type="text" class="form-control " id="telefoneContato" maxlength="9">
+<div class="btn">
+<button class="btn-btn-default" type="submit"> Cadastrar </button>
+</div></div></div> 
+
+</form>
+</body>
+</html>
