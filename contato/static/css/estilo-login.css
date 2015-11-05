@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+background-color:#EDEDED;
+width:100%;
+height:auto;
+}
+ul{
+}
+.menu{
+	margin-top:-9px;
+	width:100%;
+	height:61px;
+	background:#000;
+
+	}
+	li{
+	height:50px;
+	padding:5px;
+	list-style:none;
+	float: left;
+	display:block;
+	text-align:center;
+	width:20%;
+	cursor:pointer;	
+	line-height:50px;}
+	
+	 .menu li:hover{
+	background-color:#666;
+	height:auto;
+}
+.menu li a {
+color:#FFF;
+;
+}
+	
+.menu li a:hover {
+color:#ccc;
+
+}
+	
+.centro{
+margin-left:500px;
+margin-top: 240px;
+width:42%;
+}
+
+.cadastro-link{
+margin-left:225px; }
+
+.rodape-login{
+margin-top:215px;	
+background-color:#000;
+width:auto;
+height:155px;
+
+}
+
+.icones{
+margin-left:40%;
+padding-top:40px;
+}
+.icones a{
+	margin-right:50px;
+}

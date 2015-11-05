@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+text-decoration:none;
+}
+body{
+background:#f0f4f4;
+width: 940px;
+}

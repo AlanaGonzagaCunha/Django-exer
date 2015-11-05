@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+background-color:#EDEDED;
+width:960%;
+height:1200px;
+}
+#centro{	
+margin-top:128px;
+margin-left: 200px;
+margin-right: 100px;
+height:240px;
+}
+
+h1{
+text-align:center;
+padding-bottom:10px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
